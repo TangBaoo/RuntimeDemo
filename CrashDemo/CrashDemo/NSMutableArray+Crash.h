@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSMuableArray_Crash : NSObject
+@interface NSMutableArray (Crash)
 
 @end

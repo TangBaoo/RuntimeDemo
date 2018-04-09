@@ -6,9 +6,8 @@
 //  Copyright © 2017年 灌汤包的大蒸笼. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface DJ_TableView : NSObject
+@interface UITableView (DJ)
 
 @end

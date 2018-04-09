@@ -9,7 +9,7 @@
 #import "Statistics+ViewController.h"
 #import <objc/runtime.h>
 
-@implementation UIViewController (Statistics_ViewController)
+@implementation UIViewController (Statistics)
 
 
 +(void)load

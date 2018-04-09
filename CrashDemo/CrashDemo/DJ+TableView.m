@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 
-@implementation UITableView (DJ_TableView)
+@implementation UITableView (DJ)
 
 + (void)load
 {

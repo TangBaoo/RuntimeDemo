@@ -15,7 +15,7 @@
 		3339265E1F297CC40010B8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3339265C1F297CC40010B8C9 /* LaunchScreen.storyboard */; };
 		333926691F297CC40010B8C9 /* CrashDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333926681F297CC40010B8C9 /* CrashDemoTests.m */; };
 		333926741F297CC40010B8C9 /* CrashDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333926731F297CC40010B8C9 /* CrashDemoUITests.m */; };
-		333926831F297EDD0010B8C9 /* NSMuableArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 333926821F297EDD0010B8C9 /* NSMuableArray+Crash.m */; };
+		333926831F297EDD0010B8C9 /* NSMutableArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 333926821F297EDD0010B8C9 /* NSMutableArray+Crash.m */; };
 		333926861F29879E0010B8C9 /* Statistics+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333926851F29879E0010B8C9 /* Statistics+ViewController.m */; };
 		333926891F298A2F0010B8C9 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333926881F298A2F0010B8C9 /* SecViewController.m */; };
 		3339268C1F298D230010B8C9 /* DJ+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339268B1F298D230010B8C9 /* DJ+TableView.m */; };
@@ -55,8 +55,8 @@
 		3339266F1F297CC40010B8C9 /* CrashDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		333926731F297CC40010B8C9 /* CrashDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashDemoUITests.m; sourceTree = "<group>"; };
 		333926751F297CC40010B8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		333926811F297EDD0010B8C9 /* NSMuableArray+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMuableArray+Crash.h"; sourceTree = "<group>"; };
-		333926821F297EDD0010B8C9 /* NSMuableArray+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMuableArray+Crash.m"; sourceTree = "<group>"; };
+		333926811F297EDD0010B8C9 /* NSMutableArray+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Crash.h"; sourceTree = "<group>"; };
+		333926821F297EDD0010B8C9 /* NSMutableArray+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Crash.m"; sourceTree = "<group>"; };
 		333926841F29879E0010B8C9 /* Statistics+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Statistics+ViewController.h"; sourceTree = "<group>"; };
 		333926851F29879E0010B8C9 /* Statistics+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Statistics+ViewController.m"; sourceTree = "<group>"; };
 		333926871F298A2F0010B8C9 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 				333926881F298A2F0010B8C9 /* SecViewController.m */,
 				333926841F29879E0010B8C9 /* Statistics+ViewController.h */,
 				333926851F29879E0010B8C9 /* Statistics+ViewController.m */,
-				333926811F297EDD0010B8C9 /* NSMuableArray+Crash.h */,
-				333926821F297EDD0010B8C9 /* NSMuableArray+Crash.m */,
+				333926811F297EDD0010B8C9 /* NSMutableArray+Crash.h */,
+				333926821F297EDD0010B8C9 /* NSMutableArray+Crash.m */,
 				3339268A1F298D230010B8C9 /* DJ+TableView.h */,
 				3339268B1F298D230010B8C9 /* DJ+TableView.m */,
 				333926571F297CC40010B8C9 /* Main.storyboard */,
@@ -301,7 +301,7 @@
 				333926561F297CC40010B8C9 /* ViewController.m in Sources */,
 				333926531F297CC40010B8C9 /* AppDelegate.m in Sources */,
 				333926861F29879E0010B8C9 /* Statistics+ViewController.m in Sources */,
-				333926831F297EDD0010B8C9 /* NSMuableArray+Crash.m in Sources */,
+				333926831F297EDD0010B8C9 /* NSMutableArray+Crash.m in Sources */,
 				333926501F297CC40010B8C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +542,7 @@
 				3339267A1F297CC40010B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3339267B1F297CC40010B8C9 /* Build configuration list for PBXNativeTarget "CrashDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +551,7 @@
 				3339267D1F297CC40010B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3339267E1F297CC40010B8C9 /* Build configuration list for PBXNativeTarget "CrashDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +560,7 @@
 				333926801F297CC40010B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

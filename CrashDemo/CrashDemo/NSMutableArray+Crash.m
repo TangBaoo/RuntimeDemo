@@ -6,7 +6,7 @@
 //  Copyright © 2017年 灌汤包的大蒸笼. All rights reserved.
 //
 
-#import "NSMuableArray+Crash.h"
+#import "NSMutableArray+Crash.h"
 #import <objc/runtime.h>
 
 #define AvoidCrashSeparator         @"================================================================"
@@ -20,7 +20,7 @@
 #define key_callStackSymbols @"callStackSymbols"
 #define key_exception        @"exception"
 
-@implementation NSMutableArray (NSMutableArray_Crash)
+@implementation NSMutableArray (Crash)
 
 +(void)load
 {
